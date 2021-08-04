@@ -25,3 +25,6 @@ All other command line input is interpreted as program invocation which is done 
 - Background execution of prpograms (if the command has an ampersand & at the end)
 - Piping between programs via '|' e.g \<cmd1> | \<cmd2>
 - Shell ignores the SIGINT signal
+
+## How to Run
+All the code is in the file "gbsh.cpp." Any modifications should be made in that file. The provided Makefile will build the program. If you add any additional source code files, you need to add them to the Makefile in order for them to get built into the executable. Keep gbsh.cpp and the Makefile in the same directory, open a terminal there and run "make" to create the executable and run "./gbsh" to run the executable.
